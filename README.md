@@ -1,4 +1,4 @@
-# Base
+# Next.js Base
 
 ## 使い方
 - Settings -> General -> Pull Requests -> Automatically delete head branches: ON
@@ -19,4 +19,5 @@
     - TARGET_BRANCH: develop or master
 
 ## Versions
+Next.js Base: 1.0.0
 Base: 1.0.0
