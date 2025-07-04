@@ -8,7 +8,9 @@ on:
   workflow_dispatch:
 
 jobs:
-  deploy:
+  deploy client:
+    if: contains(join(github.event.head_commit.added, github.event.head_commit.modified, github.event.head_commit.removed), 'client/')
+
     runs-on: ubuntu-latest
 
     environment:
