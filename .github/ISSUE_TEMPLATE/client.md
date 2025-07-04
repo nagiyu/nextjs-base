@@ -1,8 +1,8 @@
 ---
-name: Issue
-about: Issue のテンプレート
-title: ""
-labels: []
+name: Client Issue
+about: Client のテンプレート
+title: "[Client]"
+labels: ["client"]
 assignees: []
 ---
 
@@ -28,7 +28,8 @@ assignees: []
 ---
 
 ## 禁止事項 (Prohibitions)
-作業においてやってはいけないこと・禁止事項があれば記載してください。
+- パッケージのインストールが必要な場合、必ず **client** ディレクトリ配下で行ってください。
+- babel の導入は不要なので、パッケージのインストールは行わないでください。
 
 ---
 
