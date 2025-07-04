@@ -18,6 +18,12 @@
     - LLM_MODEL: openai/gpt-4.1-mini
     - TARGET_BRANCH: develop or master
 
+### パス生成
+
+```bash
+web-push generate-vapid-keys
+```
+
 ### AWS
 - Elastic Container Registry
 - Lambda
